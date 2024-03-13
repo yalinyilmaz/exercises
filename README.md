@@ -1,7 +1,7 @@
 # exercises
 A Gym Exercise Encyclopedia
 
-- Kodu çalıştırdığınızda direkt olarak ana ekran karşınıza gelecektir.Internet bağlantınız olduğuna emin olun, aksi takdir ana ekranda " Failded to coonect server" hatası alabilirsiniz.
+- Kodu çalıştırdığınızda direkt olarak ana ekran karşınıza gelecektir.Internet bağlantınız olduğuna emin olun, aksi takdir ana ekranda " Failded to connect server" hatası alabilirsiniz.
 
 - Bu projede state management olarak Riverpod kullanılmıştır. MVP mimamrisi ile oluşturulan projenin presenter kısmında repo klasörü bulunmaktadır. Hive local DB tercih edilerek kullanıcıların dataları tutulmuştur.
 
