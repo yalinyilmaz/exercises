@@ -18,6 +18,8 @@ samples, guidance on mobile development, and a full API reference.
 # exercises
 A Gym Exercise Encyclopedia
 
+- Flutter 3.16.5 versiyonuyla çalıştırılmıştır.
+
 - Kodu çalıştırdığınızda direkt olarak ana ekran karşınıza gelecektir.Internet bağlantınız olduğuna emin olun, aksi takdir ana ekranda " Failded to connect server" hatası alabilirsiniz.
 
 - Bu projede state management olarak Riverpod kullanılmıştır. MVP mimamrisi ile oluşturulan projenin presenter kısmında repo klasörü bulunmaktadır. Hive local DB tercih edilerek kullanıcıların dataları tutulmuştur.
