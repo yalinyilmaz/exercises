@@ -98,7 +98,7 @@ class _ProgramChipCardState extends ConsumerState<ProgramChipCard> {
         }
       },
       child: Container(
-        width: MediaQuery.sizeOf(context).width / 3.7,
+        width: MediaQuery.sizeOf(context).width / 3.6,
         height: MediaQuery.sizeOf(context).height / 17,
         padding: const EdgeInsets.symmetric(horizontal: 12),
         decoration: BoxDecoration(

@@ -64,7 +64,7 @@ class _ExerciseCardState extends State<ExerciseCard> {
                       style: UIGlobalVariables.appTextBlackRegularSmallStyle),
                 ),
               ),
-              const SizedBox(height: 25),
+              SizedBox(height: MediaQuery.sizeOf(context).height/48),
               Text(widget.exercise?.muscle ?? "",
                   style: UIGlobalVariables.appTextBlackRegularMediumStyle)
             ],
@@ -84,44 +84,46 @@ class ProgramsListing extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Text("Choose Your Program!",
-            style: UIGlobalVariables
-                .appTextBlackBoldVeryLargeStyle),
-        const SizedBox(height: 32),
-        ProgramChipCard(
-            index: 0,
-            toAddExercise: true,
-            exercise: widget.exercise),
-        const SizedBox(height: 12),
-        ProgramChipCard(
-            index: 1,
-            toAddExercise: true,
-            exercise: widget.exercise),
-        const SizedBox(height: 12),
-        ProgramChipCard(
-            index: 2,
-            toAddExercise: true,
-            exercise: widget.exercise),
-        const SizedBox(height: 12),
-        ProgramChipCard(
-            index: 3,
-            toAddExercise: true,
-            exercise: widget.exercise),
-        const SizedBox(height: 12),
-        ProgramChipCard(
-            index: 4,
-            toAddExercise: true,
-            exercise: widget.exercise),
-        const SizedBox(height: 20),
-        CustomButton(
-          text: "Back",
-          onPressed: () {
-            Navigator.pop(context);
-          },
-        )
-      ],
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          Text("Choose Your Program!",
+              style: UIGlobalVariables
+                  .appTextBlackBoldVeryLargeStyle),
+          const SizedBox(height: 32),
+          ProgramChipCard(
+              index: 0,
+              toAddExercise: true,
+              exercise: widget.exercise),
+          const SizedBox(height: 12),
+          ProgramChipCard(
+              index: 1,
+              toAddExercise: true,
+              exercise: widget.exercise),
+          const SizedBox(height: 12),
+          ProgramChipCard(
+              index: 2,
+              toAddExercise: true,
+              exercise: widget.exercise),
+          const SizedBox(height: 12),
+          ProgramChipCard(
+              index: 3,
+              toAddExercise: true,
+              exercise: widget.exercise),
+          const SizedBox(height: 12),
+          ProgramChipCard(
+              index: 4,
+              toAddExercise: true,
+              exercise: widget.exercise),
+          const SizedBox(height: 20),
+          CustomButton(
+            text: "Back",
+            onPressed: () {
+              Navigator.pop(context);
+            },
+          )
+        ],
+      ),
     );
   }
 }

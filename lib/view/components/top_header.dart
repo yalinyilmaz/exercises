@@ -30,7 +30,7 @@ class TopHeader extends SliverPersistentHeaderDelegate {
         child: Column(
           children: [
             SizedBox(
-              height: MediaQuery.sizeOf(context).height / 9,
+              //height: MediaQuery.sizeOf(context).height / 9,
               width: double.infinity,
               child: Column(
                 children: [
@@ -71,10 +71,10 @@ class TopHeader extends SliverPersistentHeaderDelegate {
   }
 
   @override
-  double get maxExtent => 175;
+  double get maxExtent => 170;
 
   @override
-  double get minExtent => 175;
+  double get minExtent => 170;
 
   @override
   bool shouldRebuild(covariant SliverPersistentHeaderDelegate oldDelegate) {
