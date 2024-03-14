@@ -26,7 +26,7 @@ class _ExerciseCardState extends State<ExerciseCard> {
       padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 7.5),
       child: Container(
           padding: const EdgeInsets.all(12),
-          height: MediaQuery.sizeOf(context).height / 6.3,
+          height: MediaQuery.sizeOf(context).height / 6.0,
           decoration: const BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.all(Radius.circular(12))),
